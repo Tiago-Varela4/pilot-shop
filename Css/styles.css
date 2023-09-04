@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+.sections {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-around;
+}
+
+.background {
+	width: 100%;
+	display:flex;
+	height: auto;
+	align-items: center;
+}
+
+#image {
+	width: 100%;
+}
+
+.types {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-around;
+
+}
+h3 {
+	width: 100;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+}
